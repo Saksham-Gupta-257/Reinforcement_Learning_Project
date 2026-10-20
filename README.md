@@ -18,7 +18,7 @@ Install the required Python libraries:
 
 Run the following command:
 
-`python retail_pricing_constrained.py`
+`python project.py`
 
 ## Q-Learning Parameters
 
@@ -40,10 +40,6 @@ The program generates three graphs:
 3. Final Total-Profit Comparison
 
 It also saves CSV files containing product-level results and first-episode Q-value updates.
-
-## Note
-
-Q-Learning uses a wider allowed price range than the constrained SciPy baseline, so the comparison is not under identical conditions. The project uses simulated demand and estimated costs.
 
 ## Research Paper
 
